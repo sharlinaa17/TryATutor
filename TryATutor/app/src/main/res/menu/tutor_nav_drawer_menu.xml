@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tutorNavDrawerEditProfile_id"
+            android:icon="@drawable/edit_profile_icon"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/tutorNavDrawerConnectedParent_id"
+            android:icon="@drawable/connected_people_icon"
+            android:title="Connected Parents" />
+
+        <item
+            android:id="@+id/tutorNavDrawerAboutUs_id"
+            android:icon="@drawable/about_us_icon"
+            android:title="About Us" />
+        <item
+            android:id="@+id/tutorNavDrawerContactUs_id"
+            android:icon="@drawable/contact_us_icon"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/tutorNavDrawerLogOut_id"
+            android:icon="@drawable/logout_icon"
+            android:title="Log Out" />
+    </group>
+
+</menu>

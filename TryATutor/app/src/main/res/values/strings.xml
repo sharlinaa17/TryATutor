@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">TryATutor</string>
+    <string name="map_key" translatable="false">AIzaSyDMj5U-7U3YEsSqKgBPM8KK7jmbjzefe6Q</string>
+
+    <!-- splash screen strings -->
+    <string name="splash_screen_app_name">Try A Tutor</string>
+    <string name="splash_screen_slogan">A Hub Between Students and Tutors</string>
+
+    <!-- login screen strings -->
+    <string name="login_screen_head">Login Screen</string>
+    <string name="login_sign_up_prompt">New user? Sign Up</string>
+
+    <!-- user selection screen strings -->
+    <string name="user_selection_head">Welcome to Try a Tutor!!!!</string>
+    <string name="user_selection_description">Select Your Account Type </string>
+
+    <!-- sign up screen strings -->
+    <string name="sign_up_head">Account Sign Up</string>
+    <string name="sign_up_login_prompt">Already have an account? Sign In !!</string>
+
+    <!--nav drawer open ans close strings -->
+    <string name="parent_nav_drawer_open">Open navigation drawer</string>
+    <string name="parent_nav_drawer_close">Close navigation drawer</string>
+    <string name="tutor_nav_drawer_open">Open navigation drawer</string>
+    <string name="tutor_nav_drawer_close">Close navigation drawer</string>
+
+
+    <string name="PARENT_TYPE_USER">Parent</string>
+    <string name="TUTOR_TYPE_USER">Tutor</string>
+    <string name="SIGN_UP_VERIFICATION">SIGN_UP</string>
+    <string name="FORGET_PASSWORD_VERIFICATION">FORGET_PASSWORD</string>
+
+    <!-- table name strings -->
+    <string name="PARENT_TABLE">PARENT</string>
+    <string name="TUTOR_TABLE">TUTOR</string>
+    <string name="JOB_BOARD_TABLE">JOB_BOARD</string>
+    <string name="JOB_APPLICATION_TABLE">JOB_APPLICATION</string>
+    <string name="TUTOR_INVITATION_TABLE">TUTOR_INVITATION</string>
+    <string name="PARENT_NOTIFICATION_TABLE">PARENT_NOTIFICATION</string>
+    <string name="TUTOR_NOTIFICATION_TABLE">TUTOR_NOTIFICATION</string>
+    <string name="CONNECTION_TABLE">CONNECTION</string>
+
+    <!-- parent table attributes strings -->
+    <string name="PARENT_NAME">name</string>
+    <string name="PARENT_EMAIL">email</string>
+    <string name="PARENT_PASSWORD">password</string>
+    <string name="PARENT_PHONE">phoneNo</string>
+    <string name="PARENT_ADDRESS">address</string>
+    <string name="PARENT_ADDRESS_LATITUDE">addressLatitude</string>
+    <string name="PARENT_ADDRESS_LONGITUDE">addressLongitude</string>
+    <string name="PARENT_UID">uId</string>
+
+    <!-- tutor table attributes strings -->
+    <string name="TUTOR_NAME">name</string>
+    <string name="TUTOR_EMAIL">email</string>
+    <string name="TUTOR_PASSWORD">password</string>
+    <string name="TUTOR_PHONE">phoneNo</string>
+    <string name="TUTOR_ADDRESS">address</string>
+    <string name="TUTOR_ADDRESS_LATITUDE">addressLatitude</string>
+    <string name="TUTOR_ADDRESS_LONGITUDE">addressLongitude</string>
+    <string name="TUTOR_UID">uId</string>
+    <string name="TUTOR_BIO">bio</string>
+    <string name="TUTOR_CURRENT_INSTITUTION">currentInstitution</string>
+
+    <!-- job board table attribute strings-->
+    <string name="JOB_ID">jobId</string>
+    <string name="JOB_PARENT_ID">parentId</string>
+    <string name="JOB_INFORMATION">jobInformation</string>
+    <string name="JOB_ADDRESS">jobAddress</string>
+    <string name="JOB_CREATION_DATE">jobCreationDate</string>
+    <string name="JOB_EXPIRATION_DATE">jobExpirationDate</string>
+    <string name="JOB_PARENT_NAME">parentName</string>
+    <string name="JOB_SUBJECT">subject</string>
+    <string name="JOB_ADDRESS_LATITUDE">jobAddressLatitude</string>
+    <string name="JOB_ADDRESS_LONGITUDE">jobAddressLongitude</string>
+
+
+    <!-- job application table attribute strings -->
+    <string name="JOB_APPLICATION_ID">applicationId</string>
+    <string name="JOB_APPLICATION_JOB_ID">jobId</string>
+    <string name="JOB_APPLICATION_PARENT_ID">parentId</string>
+    <string name="JOB_APPLICATION_TUTOR_ID">tutorId</string>
+    <string name="JOB_APPLICATION_TUTOR_NAME">tutorName</string>
+    <string name="JOB_APPLICATION_PARENT_NAME">parentName</string>
+    <string name="JOB_APPLICATION_DESCRIPTION">jobDescription</string>
+    <string name="JOB_APPLICATION_POST_DATE">jobPostDate</string>
+    <string name="JOB_APPLICATION_EXPIRE_DATE">jobExpireDate</string>
+
+    <!-- tutor invitation table attribute strings -->
+    <string name="TUTOR_INVITATION_ID">invitationId</string>
+    <string name="TUTOR_INVITATION_PARENT_ID">parentId</string>
+    <string name="TUTOR_INVITATION_TUTOR_ID">tutorId</string>
+    <string name="TUTOR_INVITATION_INFORMATION">invitationInformation</string>
+    <string name="TUTOR_INVITATION_PARENT_NAME">parentName</string>
+    <string name="TUTOR_INVITATION_TUTOR_NAME">tutorName</string>
+    <string name="TUTOR_INVITATION_SUBJECT">subject</string>
+
+
+    <!-- parent notification table attribute strings -->
+    <string name="PARENT_NOTIFICATION_ID">notificationId</string>
+    <string name="PARENT_NOTIFICATION_INVITATION_ID">invitationId</string>
+    <string name="PARENT_NOTIFICATION_STATUS">notificationStatus</string>
+    <string name="PARENT_NOTIFICATION_TUTOR_ID">tutorId</string>
+    <string name="PARENT_NOTIFICATION_PARENT_ID">parentId</string>
+    <string name="PARENT_NOTIFICATION_TUTOR_NAME">tutorName</string>
+
+    <!-- tutor notification table attribute strings -->
+    <string name="TUTOR_NOTIFICATION_ID">notificationId</string>
+    <string name="TUTOR_NOTIFICATION_APPLICATION_ID">APPLICATIONId</string>
+    <string name="TUTOR_NOTIFICATION_STATUS">notificationStatus</string>
+    <string name="TUTOR_NOTIFICATION_TUTOR_ID">tutorId</string>
+    <string name="TUTOR_NOTIFICATION_PARENT_ID">parentId</string>
+    <string name="TUTOR_NOTIFICATION_PARENT_NAME">parentName</string>
+
+    <!-- connection table attribute strings -->
+    <string name="CONNECTION_ID">connectionId</string>
+    <string name="CONNECTION_PARENT_ID">parentId</string>
+    <string name="CONNECTION_TUTOR_ID">tutorId</string>
+    <string name="CONNECTION_PARENT_NAME">parentName</string>
+    <string name="CONNECTION_TUTOR_NAME">tutorName</string>
+
+
+</resources>

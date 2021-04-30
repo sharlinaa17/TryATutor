@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/parentBottomNavNotification_id"
+        android:title="Notifications"
+        android:icon="@drawable/notification_icon"
+        app:cnb_iconColor="@color/bottom_nav_icon_on_selected"
+        app:cnb_textColor="@color/bottom_nav_text_on_selected"
+        app:cnb_backgroundColor="@color/bottom_nav_item_on_selected"/>
+
+    <item
+        android:id="@+id/parentBottomNavJobBoard_id"
+        android:title="Job Board"
+        android:icon="@drawable/job_board_icon"
+        app:cnb_iconColor="@color/bottom_nav_icon_on_selected"
+        app:cnb_textColor="@color/bottom_nav_text_on_selected"
+        app:cnb_backgroundColor="@color/bottom_nav_item_on_selected"/>
+
+    <item
+        android:id="@+id/parentBottomNavFindTutor_id"
+        android:title="Find Tutor"
+        android:icon="@drawable/find_tutor_icon"
+        app:cnb_iconColor="@color/bottom_nav_icon_on_selected"
+        app:cnb_textColor="@color/bottom_nav_text_on_selected"
+        app:cnb_backgroundColor="@color/bottom_nav_item_on_selected"/>
+    <item
+        android:id="@+id/parentBottomNavJobApplication_id"
+        android:title="Job Applications"
+        android:icon="@drawable/job_application_icon"
+        app:cnb_iconColor="@color/bottom_nav_icon_on_selected"
+        app:cnb_textColor="@color/bottom_nav_text_on_selected"
+        app:cnb_backgroundColor="@color/bottom_nav_item_on_selected"/>
+
+</menu>

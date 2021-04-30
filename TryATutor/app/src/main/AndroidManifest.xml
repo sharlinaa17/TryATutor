@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tryatutor">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Tutor.ConnectedParent"></activity>
+        <activity android:name=".Parent.ConnectedTutor" />
+        <activity android:name=".Tutor.TutorInvitationDetailActivity" />
+        <activity android:name=".Tutor.TutorJobDetailActivity" />
+        <activity android:name=".Adapters.ParentDetailActivity" />
+        <activity android:name=".Parent.PostNewJobActivity" />
+        <activity android:name=".Parent.TutorDetailActivity" />
+        <activity android:name=".Shared.GoogleMapActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".Parent.ParentPostedJobDetailActivity" />
+        <activity android:name=".Tutor.TutorEditProfileActivity" />
+        <activity android:name=".Parent.ParentEditProfileActivity" />
+        <activity android:name=".Shared.ContactUsActivity" />
+        <activity android:name=".Shared.AboutUsActivity" />
+        <activity android:name=".Tutor.TutorHomeActivity" />
+        <activity android:name=".Parent.ParentHomeActivity" />
+        <activity android:name=".LoginAndRegistration.SignUpActivity" />
+        <activity android:name=".LoginAndRegistration.SignUpUserSelectionActivity" />
+        <activity android:name=".LoginAndRegistration.LoginActivity" />
+        <activity android:name=".Shared.SplashScreenActivity" />
+        <activity android:name=".Shared.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
